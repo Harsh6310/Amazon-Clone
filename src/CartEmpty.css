@@ -1,0 +1,18 @@
+.cart-empty {
+    background-color: white ;
+    width: 100% ;
+    margin-top: 50px ;
+    padding: 30px ;
+    font-family: 'Source Sans Pro';
+}
+
+.cart-empty h1 {
+    font-weight: 500 ;
+    font-size: 40px ;
+    padding-bottom: 30px ;
+}
+
+.cart-empty p {
+    font-size: 20px ;
+    padding-bottom: 20px ;
+}

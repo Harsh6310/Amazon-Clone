@@ -1,0 +1,88 @@
+.product {
+    display: flex ;
+    flex-direction: column ;
+    align-items: center ;
+    justify-content: flex-end  ;
+    margin: 10px ;
+    padding: 20px ;
+    width: 100% ;
+    max-height: 500px ;
+    min-width: 300px ;
+    background-color: white ;
+    z-index: 1 ;
+}
+
+.product:hover {
+    transform: scale(1.01);
+}
+
+.product-info {
+    height: 100px ;
+    margin-bottom: 15px ;
+}
+
+.product-desc {
+    /* height: 45px; */
+    font-family: 'Source Sans Pro' ;
+    font-weight: 500 ;
+    font-size: 24px ;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box ;
+    -webkit-line-clamp: 2; /* number of lines to show */
+            line-clamp: 2; 
+    -webkit-box-orient: vertical;
+}
+
+.product-desc:hover {
+    color: rgba(255, 168, 7, 0.712);
+}
+
+.product-price {
+    margin-top: 5px ;
+    font-size: 24px ;
+    font-family: 'Source Sans Pro';
+    font-weight: 500 ;
+    color: rgb(185, 1, 1) ;
+}
+
+.ppa {
+    font-weight: 600;
+    font-size: 28px ;
+}
+
+.stars {
+    font-size: 25px;
+    color: #ffb700;
+}
+
+.product-rating {
+    display: flex ;
+}
+
+.product img {
+    max-height: 200px ;
+    width: 100% ;
+    object-fit: contain ;
+    padding-top: 10px ;
+    margin-bottom: 15px ;
+    z-index: -1 ;
+}
+
+.product button {
+    border-radius: 4px ;
+    width: 70% ;
+    height: 40px ;
+    max-width: 500px ;
+    background: #f0c14b ;
+    border: 1px solid ;
+    margin-top: 10px ;
+    border-color: #a88734 #9c7e31 #846a29 ;
+    font-family: 'Source Sans Pro';
+    font-size: 17px ;
+    font-weight: 500 ;
+    color: #111 ;
+}
+.product button:hover {
+    background: #ffaf38 ;
+}

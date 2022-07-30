@@ -1,0 +1,148 @@
+.footer {
+    /* display: flex ; */
+    /* justify-content: center ; */
+    /* margin-left: auto ;
+    margin-right: auto ; */
+    width: 100% ; 
+    font-family: 'Source Sans Pro';
+    min-width: 1100px ;
+}
+
+.toTop {
+    background-color: #38445c ;
+    display: block ;
+    width: 100% ;
+    text-align: center ;
+}
+
+.toTop:hover {
+    background-color: #50546c ;
+}
+
+.toTopText {
+    
+    padding-top: 20px ;
+    padding-bottom: 20px ;
+    font-size: 17px ;
+    color: white ;
+}
+
+.footer a {
+    text-decoration: none ;
+}
+
+.footer-mid {
+    display: flex ;
+    background-color: #232f3e ;
+    justify-content: center ;
+    padding-bottom: 50px ;
+    border-bottom: 1px solid rgba(133, 171, 184, 0.329) ;
+}
+
+.mid-info {
+    display: inline-block ;
+    color: white ;
+    margin-left: auto ;
+    margin-right: auto ;
+    padding-top: 40px ;
+    min-width: 200px 
+    
+}
+
+.mid-info h3 {
+    font-size: 22px ;
+    padding-bottom: 10px ;
+}
+.mid-info a{
+    display: block ;
+    color: lightgray ;
+    text-decoration: none ;
+    font-size: 18px ;
+    padding-bottom: 7px  ;
+}
+
+.mid-info a:hover {
+    text-decoration: underline ;
+}
+
+.amazon-places {
+    display: block ;
+    background-color: #232f3e ;
+    text-align: center ;
+    padding-bottom: 30px ;
+}
+
+.amazon-places img {
+    margin-left: auto ;
+    margin-right: auto ;
+    display: block ;
+    padding-top: 40px ;
+    padding-bottom: 20px ;
+    height: 40px ;
+}
+
+.amazon-places p {
+    display: inline ;
+    color: lightgray ;
+    padding-left: 30px ;
+    margin-top: 20px ;
+}
+
+.footer-bottom {
+    background-color: #131a22;
+    /* margin-left: auto ;
+    margin-right: auto ; */
+}
+
+.other-services {
+    color: white ;
+    padding-top: 40px ;
+    padding-bottom: 40px ;
+}
+
+.service-row {
+    display: flex  ;
+    max-width: 1300px ;
+    margin-left: auto ;
+    margin-right: auto ;
+    padding-bottom: 30px ;
+}
+
+.service {
+    display: inline-block ;
+    height: 50px ;
+    width: 200px ;
+    margin-left: auto ;
+    margin-right: auto ;
+}
+
+.service h5 {
+    font-weight: 600 ;
+    color: lightgray ;
+}
+
+.service p {
+    font-size: 13px ;
+    color: rgb(148, 148, 148) ;
+}
+
+.final-footer {
+    align-items: center ;
+    color: lightgray ;
+}
+
+.final-footer p {
+    text-align: center ;
+    padding-bottom: 30px ;
+    font-weight: 600 ;
+    font-size: 20px ;
+}
+
+p a {
+    color: lightgray ;
+    text-decoration: none ;
+}
+
+p a:hover {
+    color: #ffaf38 ;
+}
